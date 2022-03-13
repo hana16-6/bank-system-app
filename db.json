@@ -1,0 +1,64 @@
+{
+  "customers": [
+    {
+      "name": "hana",
+      "email": "hanaaa@gmail.com",
+      "currentBalance": 46,
+      "id": 1
+    },
+    {
+      "name": "Mohamed Ali",
+      "email": "hanaaa@gmail.com",
+      "currentBalance": 80,
+      "id": 2
+    },
+    {
+      "name": "angham",
+      "email": "hanaaa@gmail.com",
+      "currentBalance": 100,
+      "id": 3
+    },
+    {
+      "name": "hana",
+      "email": "hanaaa@gmail.com",
+      "currentBalance": 23,
+      "id": 4
+    },
+    {
+      "name": "hana",
+      "email": "hanaaa@gmail.com",
+      "currentBalance": 41,
+      "id": 5
+    },
+    {
+      "name": "Nourhan",
+      "email": "mariaantony44@gmail.com",
+      "currentBalance": 23,
+      "id": 6
+    },
+    {
+      "name": "Taha",
+      "email": "mariaantony44@gmail.com",
+      "currentBalance": 129,
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "Sarah antony",
+      "email": "mariaantony44@gmail.com",
+      "currentBalance": 100
+    },
+    {
+      "id": 9,
+      "name": "Nour antony",
+      "email": "mariaantony44@gmail.com",
+      "currentBalance": 100
+    },
+    {
+      "id": 10,
+      "name": "Dina antony",
+      "email": "mariaantony44@gmail.com",
+      "currentBalance": 100
+    }
+  ]
+}

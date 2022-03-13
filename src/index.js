@@ -3,10 +3,25 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from "react-router-dom";
+import CustomerContextProvider from "./context/CustomerContext"
+import BalanceContextProvider from './context/BalanceContext'
+import TransactionsProvider from './context/TransactionsContext'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CustomerContextProvider>
+      <BalanceContextProvider>
+        <TransactionsProvider>
+          <Router>
+            <App />
+          </Router>
+        </TransactionsProvider>
+      </BalanceContextProvider>
+    </CustomerContextProvider>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
