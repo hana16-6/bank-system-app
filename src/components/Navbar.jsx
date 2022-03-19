@@ -5,7 +5,9 @@ function Navbar() {
   return (
     <NavContainer className="container">
       <div>
-        <h2>HanaBank</h2>
+        <Link className="link_reset" to="/">
+          <h2>Hana</h2>
+        </Link>
       </div>
       <NavUl>
         <NavLI>

@@ -1,3 +1,6 @@
 body {
   background-color: #ebf5ff;
 }
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  min-width: 200px !important;
+}

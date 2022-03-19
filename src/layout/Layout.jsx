@@ -9,7 +9,7 @@ function Layout() {
     <>
       <HomeHeader className="container">
         <HeaderCols>
-          <h1>Hana Bank</h1>
+          <h1>Bank System</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
             voluptates iste amet sint porro corporis quos saepe quia, quisquam

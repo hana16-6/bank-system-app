@@ -21,12 +21,12 @@ border-bottom: 1px solid #8ea7b2;
 export const TableTD = styled.div`
 flex-basis:20%;
 border-right:1px solid #8ea7b2;
-padding: 10px;
+padding: 10px 0;
 text-align:center;
 font-weight: bold;
 
 ${props => props.transactionsID && css`
-flex-basis:25%;
+  flex-basis:33.3333%;
 `}
 `
 export const NavUl = styled.ul`
@@ -70,8 +70,21 @@ background-color: white;
 margin: 50px auto;
 min-height: 300px;
 border-radius: 10px;
-
 min-width: 500px;
 text-align:center;
 padding:20px;
+`
+
+export const IconSpan = styled.span`
+float: right;
+`
+export const InfoSpan = styled.span`
+font-weight: bold;
+`
+export const NumInput = styled.input`
+padding: 10px 5px;
+    margin-right: 18px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
 `

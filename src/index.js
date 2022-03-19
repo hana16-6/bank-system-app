@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
 import CustomerContextProvider from "./context/CustomerContext"
 import BalanceContextProvider from './context/BalanceContext'
-import TransactionsProvider from './context/TransactionsContext'
+
 
 
 
@@ -14,11 +14,9 @@ ReactDOM.render(
   <React.StrictMode>
     <CustomerContextProvider>
       <BalanceContextProvider>
-        <TransactionsProvider>
-          <Router>
-            <App />
-          </Router>
-        </TransactionsProvider>
+        <Router>
+          <App />
+        </Router>
       </BalanceContextProvider>
     </CustomerContextProvider>
 

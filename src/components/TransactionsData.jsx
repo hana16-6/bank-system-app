@@ -1,18 +1,25 @@
-import React, { useContext } from "react";
-import { transactionsContext } from "../context/TransactionsContext";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 import { Table, TableTD } from "../styles/Styles.style";
 
 function TransactionsData() {
-  const [transactions, setTransactions] = useContext(transactionsContext);
+  const [transactions, setTransactions] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      const { data } = await axios.get("http://localhost:3000/transactions");
+      setTransactions(data);
+    })();
+  }, []);
   return (
     <>
       {transactions ? (
         transactions?.map((transaction) => {
           return (
-            <Table>
-              <TableTD>{transaction.senderProp}</TableTD>
-              <TableTD>{transaction.recipientProp}</TableTD>
-              <TableTD>{transaction.recipientProp}</TableTD>
+            <Table key={transaction.id}>
+              <TableTD transactionsID>{transaction.senderProp}</TableTD>
+              <TableTD transactionsID>{transaction.recipientProp}</TableTD>
+              <TableTD transactionsID>{transaction.amount}</TableTD>
             </Table>
           );
         })

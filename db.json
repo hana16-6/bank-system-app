@@ -1,43 +1,43 @@
 {
   "customers": [
     {
-      "name": "hana",
-      "email": "hanaaa@gmail.com",
-      "currentBalance": 46,
+      "name": "Ayat Ali",
+      "email": "mariaantony44@gmail.com",
+      "currentBalance": 47,
       "id": 1
     },
     {
       "name": "Mohamed Ali",
-      "email": "hanaaa@gmail.com",
-      "currentBalance": 80,
+      "email": "mariaantony44@gmail.com",
+      "currentBalance": 77,
       "id": 2
     },
     {
-      "name": "angham",
-      "email": "hanaaa@gmail.com",
-      "currentBalance": 100,
+      "name": "Angham Emad",
+      "email": "mariaantony44@gmail.com",
+      "currentBalance": 102,
       "id": 3
     },
     {
-      "name": "hana",
-      "email": "hanaaa@gmail.com",
+      "name": "Hana Mohamed",
+      "email": "mariaantony44@gmail.com",
       "currentBalance": 23,
       "id": 4
     },
     {
-      "name": "hana",
-      "email": "hanaaa@gmail.com",
+      "name": "Esraa Ahmed",
+      "email": "mariaantony44@gmail.com",
       "currentBalance": 41,
       "id": 5
     },
     {
-      "name": "Nourhan",
+      "name": "Nourhan Said",
       "email": "mariaantony44@gmail.com",
       "currentBalance": 23,
       "id": 6
     },
     {
-      "name": "Taha",
+      "name": "Dalia Taher",
       "email": "mariaantony44@gmail.com",
       "currentBalance": 129,
       "id": 7
@@ -59,6 +59,14 @@
       "name": "Dina antony",
       "email": "mariaantony44@gmail.com",
       "currentBalance": 100
+    }
+  ],
+  "transactions": [
+    {
+      "senderProp": "Mohamed Ali",
+      "recipientProp": "Ayat Ali",
+      "amount": "2",
+      "id": 1
     }
   ]
 }
